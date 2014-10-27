@@ -1,5 +1,5 @@
 gnujump (1.0.8-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Creates debian packaging config
 
- -- Fernando Santos <fernandosantos@unknown>  Fri, 24 Oct 2014 17:03:22 -0200
+ -- Fernando Almeida <fernando@fernandoalmeida.net>  Fri, 24 Oct 2014 17:03:22 -0200
