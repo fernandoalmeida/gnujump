@@ -1,15 +1,22 @@
 Source: gnujump
 Section: unknown
 Priority: extra
-Maintainer: Fernando Santos <fernandosantos@unknown>
-Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Maintainer: Fernando Almeida <fernando@fernandoalmeida.net>
+Build-Depends: debhelper (>= 9), autotools-dev
 Standards-Version: 3.9.2
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/gnujump.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/gnujump.git;a=summary
+Homepage: http://gnujump.es.gnu.org/index.php/Main_Page
+Vcs-Git: https://git@github.com:fernandoalmeida/gnujump.git
+Vcs-Browser: https://github.com/fernandoalmeida/gnujump
 
 Package: gnujump
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: GNUjump is a clone of the simple yet addictive game Xjump.
+ Adding new features like multiplaying, unlimited FPS, smooth floor falling,
+ themable graphics, sounds, replays, etc.
+ .
+ The goal in this game is to jump to the next floor trying not to fall down.
+ As you go upper in the Falling Tower the floors will fall faster.
+ .
+ Try to survive longer get upper than anyone. It might seem too simple but once
+ you've tried you'll realize how addictive this is. 
